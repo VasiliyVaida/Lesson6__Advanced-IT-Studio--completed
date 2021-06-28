@@ -333,3 +333,58 @@ header {
   justify-content: space-between;
   margin-bottom: 50px;
 }
+
+.demo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: url(../img/demo-background.png) center;
+  background-size: cover;
+}
+
+.demo__container {
+  padding: 70px 0 465px 0;
+}
+
+.demo__subtitle {
+  color: #ffffff;
+}
+
+.demo-info {
+  color: #ffffff;
+}
+
+.demo__video-wrapper {
+  position: absolute;
+  top: 220px;
+  width: 970px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/demo-video--background.png) center no-repeat;
+  background-size: cover;
+}
+
+.play-button {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.demo__play-video {
+  display: flex;
+  align-items: center;
+  padding: 20px 29px 20px 40px;
+  border: 1px solid #ffffff;
+  border-radius: 200px;
+}
+
+.play-button__picture-wrapper {
+  margin-right: 21px;
+}
